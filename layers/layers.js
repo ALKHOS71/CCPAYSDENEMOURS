@@ -23,7 +23,7 @@ var lyr_AMENAGEMENTSPRECONISES_1 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_AMENAGEMENTSPRECONISES_1, 
                 style: style_AMENAGEMENTSPRECONISES_1,
-                interactive: false,
+                interactive: true,
     title: 'AMENAGEMENTS PRECONISES<br />\
     <img src="styles/legend/AMENAGEMENTSPRECONISES_1_0.png" /> Voie Verte ou Piste cyclable<br />\
     <img src="styles/legend/AMENAGEMENTSPRECONISES_1_1.png" /> Voie interdite aux véhicules motorisés sauf ayants droit<br />\
@@ -33,7 +33,7 @@ var lyr_AMENAGEMENTSPRECONISES_1 = new ol.layer.Vector({
     <img src="styles/legend/AMENAGEMENTSPRECONISES_1_5.png" /> Voie partagée<br />\
     <img src="styles/legend/AMENAGEMENTSPRECONISES_1_6.png" /> Carrefour à feux<br />\
     <img src="styles/legend/AMENAGEMENTSPRECONISES_1_7.png" /> Signalisation et marquage d\'une traversée cyclable<br />\
-    <img src="styles/legend/AMENAGEMENTSPRECONISES_1_8.png" /> EXISTANT<br />\
+    <img src="styles/legend/AMENAGEMENTSPRECONISES_1_8.png" /> Aménagements cyclables existants<br />\
     <img src="styles/legend/AMENAGEMENTSPRECONISES_1_9.png" /> Projet voir Département<br />'
         });
 var format_ANTENNESDACCESEV3_2 = new ol.format.GeoJSON();
